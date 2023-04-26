@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+ 
+</head>
+
+<body>
+    <header class="header"> 
+    <a href="#" class="logo"><marquee behavior="scroll" direction="right">Portafolio</marquee></a>
+    <nav class="navbar">
+        <a href="index.html" style="--clr1:1" class="active">Home</a>
+        <a href="index1.html" style="--clr1:2">Portafolio</a>
+        <a href="index3.html" style="--clr1:3">Sobre mi</a>
+        <a href="index4.html" style="--clr1:4">Contactos</a>
+    </nav>
+    </header>
+    <section class="home">
+        <div class="home-detail">
+            <h3>Hola, yo soy</h3>
+            <h1>Francisco Jesus Sanabria</h1>
+            <h3>Y soy <span class="textline"></span></h3>
+            <div class="social-media">
+            <h3>Aqui podran encontrar una breve descripcion de mi academia, experiencias y futuro proyectos</h3>
+            <h6>Mucho codigo che <span class="textline1"></span></h6>
+        </div>
+
+    </div>
+    <div class="profile-photo">
+        <img src="fran.png" alt="">
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var type= new Typed('.textline', {
+            strings:["Frontend Devlopter","Futuro Full Stack Devloper"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop:true
+
+        })
+    </script>
+
+<script>
+    var type= new Typed('.textline1', {
+        strings:["!DOCTYPE html","var = cito"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop:true
+
+    })
+</script>
+<script src="index.js"></script>
+</body>
+</html>
