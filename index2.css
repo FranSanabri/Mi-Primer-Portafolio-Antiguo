@@ -169,7 +169,7 @@ body {
 img {
     width: 200px;
     margin-right: 20px;
-    animation: Zoom 1s ease forwards, Float 3s ease-in-out infinite;
+    animation: Zoom 1s ease forwards;
     animation-delay: 1s, 4s;
     opacity: 0;
     
@@ -178,7 +178,7 @@ img {
 .img1 {
     width: 500px;
     margin-right: 200px;
-    animation: Zoom 1s ease forwards, Float 3s ease-in-out infinite;
+    animation: Zoom 1s ease forwards;
     animation-delay: 1s, 4s;
     opacity: 0;
     
